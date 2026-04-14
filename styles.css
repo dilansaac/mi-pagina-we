@@ -65,9 +65,11 @@ li {
 }
 
 /* Diseño Responsive */
-@media (max-width: 600px) {
-    h1 {
-        font-size: 1.5rem;
+<element class="imagen-comida">{
+width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
     }
     .food-list-section {
         padding: 15px;

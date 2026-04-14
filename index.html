@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Comidas Favoritas</title>
+    <style>
+        /* Estilos Globales */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Contenedor Principal */
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Imagen Representativa */
+        .hero-image {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+
+        /* Sección de Lista */
+        .food-list-section {
+            background: white;
+            margin-top: 20px;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: left;
+        }
+
+        ol {
+            font-size: 1.2rem;
+            padding-left: 40px;
+        }
+
+        li {
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        /* Botón con Efecto Hover */
+        .btn-interactivo {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 15px 30px;
+            font-size: 1rem;
+            color: white;
+            background-color: #e67e22; /* Naranja original */
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s;
+            text-decoration: none;
+        }
+
+        .btn-interactivo:hover {
+            background-color: #d35400; /* Color que cambia al pasar el mouse */
+            transform: scale(1.05);
+        }
+
+        /* Diseño Responsive (Media Queries) */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 1.5rem;
+            }
+            .food-list-section {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Gastronomía Predilecta</h1>
+        </header>
+
+        <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80" 
+             alt="Mesa con platos variados" 
+             class="hero-image">
+
+        <main class="food-list-section">
+            <h2>Mi Top 3 de Comidas</h2>
+            <p>Estas son las delicias que nunca pueden faltar en mi menú ideal:</p>
+            
+            <ol>
+                <li>Pizza Napolitana (Mucha albahaca y mozzarella fresca)</li>
+                <li>Sushi Variado (Especialmente el de salmón y aguacate)</li>
+                <li>Tacos al Pastor (Con su piña y cebollita)</li>
+            </ol>
+
+            <div style="text-align: center;">
+                <a href="#" class="btn-interactivo">¡Quiero Recetas!</a>
+            </div>
+        </main>
+
+        <footer>
+            <p>© 2024 Mi Landing Page de Comida</p>
+        </footer>
+    </div>
+
+</body>
+</html>
